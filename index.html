@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .navbar {
+      background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background */
+    }
+    .carousel-item {
+      height: 100vh; /* Full height carousel */
+    }
+    .carousel-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Cover the entire carousel area */
+    }
+  </style>
+</head>
+<body>
+  <!-- Responsive Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.pexels.com/photos/19317897/pexels-photo-19317897/free-photo-of-men-and-women-sitting-in-front-of-computers-and-a-large-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best in Our Field</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/8079796/pexels-photo-8079796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Best Quality Material</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/22491144/pexels-photo-22491144/free-photo-of-smart-home-devices.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Affordable For All</h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- corousel code end here  -->
+
+
+
+<div style="display: flex  ; justify-content: center; margin: 50px;" >
+    <h4>Take a Look at Our Services</h4>
+</div>
+
+
+<div class="shadow-lg">
+    <div class="ml-5 mr-5 card text-center border     ">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Hard Services </h5>
+          <p class="card-text">Hvac, Electronics, Plumbing, Electrical, General Maintainence, Repair</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          checkout our services -
+        </div>
+      </div>
+</div>
+
+
+
+<div class="shadow-lg">
+    <div class="mt-5 ml-5 mr-5 card text-center border    ">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Soft Services </h5>
+          <p class="card-text">Website Development, Digital Marketing, Graphic Design, Content Writing, SEO</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          checkout our services -
+        </div>
+      </div>
+</div>
+
+
+<div class="mt-5 " >
+    <h2 class="text-center  shadow-lg">Best Services in Town</h2>
+    <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col h5 border   ">
+            HVAC
+          </div>
+          <div class="col h5 border ">
+            Electronics
+          </div>
+          <div class="col h5 border   ">
+            Electricals
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+<style> body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow-x: hidden; } .video-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; /* Ensure the video is behind other content */ display: none; /* Initially hide the video */ } .video-container iframe { position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%); border: none; } .content { position: relative; z-index: 1; /* Ensure this content stays above the video */ padding: 20px; background-color: white; /* Make sure the content background covers the video */ } .show-video .video-container { display: block; /* Show the video container when needed */ } </style>
+
+
+<div class="container mt-5"> <div class="row justify-content-center"> <div class="col-auto"> <button type="button" class="btn btn-primary" onclick="showVideo()">Play Video In background</button> </div> <div class="col-auto"> <button type="button" class="btn btn-primary " onclick="hideVideo()" >Pause Video in background</button> </div> </div> </div>
+
+
+<div class="video-container"> <iframe src="https://www.youtube.com/embed/ahy5o5nT4oI?autoplay=1&mute=1&controls=0&loop=1&playlist=ahy5o5nT4oI" allow="autoplay; fullscreen"></iframe> </div>
+
+
+
+<!-- container blank -->
+<div class="border border-danger mt-2 mr-5 ml-5 shadow-lg" style="height: 100vh; width:100%;"> <!-- Your content goes here -->
+     </div>
+
+
+
+
+  <!-- for corousel  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script> function showVideo() { document.body.classList.add('show-video'); document.getElementById('videoIframe').src = "https://www.youtube.com/embed/ahy5o5nT4oI?autoplay=1&mute=1&controls=0&loop=1&playlist=ahy5o5nT4oI"; } function hideVideo() { document.getElementById('videoIframe').src = ''; document.body.classList.remove('show-video'); } </script>
+</body>
+</html>
